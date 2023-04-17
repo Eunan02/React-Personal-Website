@@ -15,7 +15,7 @@ function Home() {
         <Link to='mailto:eunand02@outlook.com' target="_blank"><EmailIcon/></Link>
         <Link to="https://github.com/Eunan02" target="_blank"><GitHub/></Link>
         <br></br>
-        <button className="btn" onClick={() => window.open("https://drive.google.com/file/d/1rNs-YYxGGRWBtz4XEXxCHV1lmCxfrN7T/view?usp=share_link")}>
+        <button className="btn" onClick={() => window.open("https://drive.google.com/file/d/1IQfv0Cx1Wu_-T9X9JQy0C16mGCEoN9Bu/view?usp=share_link")}>
                   VIEW MY CV
                 </button>
         </div>
