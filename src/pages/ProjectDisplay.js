@@ -11,7 +11,7 @@ function ProjectDisplay() {
     const { id } = useParams();
     const project= ProjectList[id];
   return (<div className='project'>
-    <br></br>
+    
     <h1>{project.name}</h1>
     <img src={project.image}></img>
     <p><b>Skills:</b> {project.skill}</p>
@@ -19,10 +19,10 @@ function ProjectDisplay() {
     <Link to={project.github} target="_blank"><GitHub/></Link>
     { project.deployed ? <button className="bttn" onClick={() => window.open(project.site)}>
                   Deployed Site
-                </button> : <h1></h1>}
+                </button> : <p></p>}
                 { project.cert ? <button className="bttn" onClick={() => window.open(project.site)}>
                   View Cert
-                </button> : <h1></h1>}
+                </button> : <p></p>}
     
     </div>
   );
